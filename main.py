@@ -4,7 +4,7 @@ import time
 import traceback
 import ctypes
 
-version = '0.2.1'
+version = '0.2.0'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Encodes or decodes Game Genie codes on all platforms it has been released in (NES/SNES/GB, etc.)', epilog = 'See README.md for more information.\n\nGGWorkshop {0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class=argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -88,7 +88,7 @@ class NES():
 		}
 
 	def invalid_code(self):
-		print('This NES Game Genie code is INVALID!\nCheck if there are any spaces in your code and try again.')
+		print('This NES Game Genie code is INVALID!\nCheck the <option> parameter you provided and your code, then try again.')
 		quitter()
 
 	def decoder(self, code):
