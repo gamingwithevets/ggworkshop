@@ -1,6 +1,6 @@
 # Basic info
 **GGWorkshop** is a Game Genie decoder and encoder written in Python.  
-Currently, the tool only supports decoding and generating NES Game Genie codes.
+Currently, the tool only supports decoding and generating **NES** Game Genie codes.
 
 # Requirements
 I recommmend the latest version of Python 3.
