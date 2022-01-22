@@ -25,7 +25,7 @@ main.py [-h, --help] [-n, --nologo] [-a, --autoexit] <option> <platform> <addres
 Running the script with only the positional arguments will first show this screen (can be disabled with `-n, --nologo`):
 ![The GGWorkshop boot screen.](https://github.com/gamingwithevets/ggworkshop/raw/main/images/startup.png)
 After that, the decoding or encoding process will start. The time it takes depends on the speed of your computer.  
-Finally, information about the Game Genie code will be shown, such as the address, value and condition, what the code actually does, etc.
+Finally, information about the Game Genie code will be shown, such as the address, value and condition, what the code actually does, etc.  
 Here is an example of the screen is shown after the NES Game Genie encoding process:
 ![GGWorkshop after the NES Game Genie encoding process has completed.](https://github.com/gamingwithevets/ggworkshop/raw/main/images/encode.png)
 After that, you are prompted to press Enter 10 times to exit the program (can be disabled with `-a, --autoexit`).
