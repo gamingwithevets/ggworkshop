@@ -13,7 +13,7 @@ main.py [-h, --help] [-n, --nologo] [-a, --autoexit] <option> <platform> <addres
 | Parameter | Description |
 |--|--|
 | `<option>` | Program mode. (`encode/decode`) |
-| `<platform>` | Game Genie platform. (`nes/gb/gear/snes/mega`) (note: gear = Sega Game Gear, mega = Sega Mega Drive/Genesis)
+| `<platform>` | Game Genie platform. (`nes/gb/gear/snes/mega`) (note: `gear` = Sega Game Gear, `mega` = Sega Mega Drive/Genesis)
 | `<address/code>` | If the `encode` option is used, this is the hex address used for encryption. Must be 2 bytes between $8000 and $FFFF. Must be specified **before** `<value>` and `<condition>`. If the `decode` option is used, this is the code used for decryption. |
 | `<value>` | If the `encode` option is used, this is the hex value used for encryption. Must be a 2-digit byte. Must be specified **before** `<address/code>` and **after** `<condition>`. |
 | `<condition>` | If the `encode` option is used, this is the conditional hex value used for encryption. Must be a 2-digit byte. If specified, must be **after** `<address/code>` and `<value>`. |
