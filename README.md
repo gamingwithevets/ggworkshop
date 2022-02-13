@@ -33,7 +33,7 @@ After that, you are prompted to press Enter 10 times to exit the program (can be
 
 # Supported Platforms
 | Platform | **Supported?** | **Can Decode?** | **Can Encode?** | **Supported Versions** |
-|--|--|--|--|
+|--|--|--|--|--|
 | Nintendo Entertainment System / NES / Nintendo | **Yes** | **Yes** | **Yes** | **All Versions** |
 | Nintendo Game Boy / Game Boy / GB | **Not Fully** | **Yes** | **No** | **v0.3.0+** |
 | Sega Game Gear / Game Gear | **Not Fully** | **Yes** | **No** | **v0.3.0+** |
